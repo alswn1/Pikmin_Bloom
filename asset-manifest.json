@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Pikmin_Bloom/static/css/main.486262db.css",
+    "main.js": "/Pikmin_Bloom/static/js/main.645c51b8.js",
+    "static/js/453.ed3810f9.chunk.js": "/Pikmin_Bloom/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/Pikmin_Bloom/index.html",
+    "main.486262db.css.map": "/Pikmin_Bloom/static/css/main.486262db.css.map",
+    "main.645c51b8.js.map": "/Pikmin_Bloom/static/js/main.645c51b8.js.map",
+    "453.ed3810f9.chunk.js.map": "/Pikmin_Bloom/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.486262db.css",
+    "static/js/main.645c51b8.js"
+  ]
+}
