@@ -1,10 +1,15 @@
+.row {
+    justify-content: space-between;
+    margin-bottom: 1.5em;
+}
+
 .col {
     margin-top : 50px;
 }
 .pik_img {
-    height : 100px;
+    height : 110px;
 }
-.contain {
+.card-contain {
     margin-top : 15px;
 }
 .des {

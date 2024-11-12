@@ -17,20 +17,20 @@ function Pikmins() {
     }, []);
 
     return (
-        <>
-        <div className="first">
-            <p>Pikmin (Olimar가 가장 좋아하는 당근인 피크픽 당근에서 따온 이름)</p>
+        <div className='wrapper'>
+            <div className="first">
+                <p>Pikmin (Olimar가 가장 좋아하는 당근인 피크픽 당근에서 따온 이름)</p>
+            </div>
+            <div>
+                <Container>
+                    <Row>
+                        {pikminList && pikminList.map(pikmin => (
+                            <Col lg={3} key={pikmin.id}><PikminCard pikmin={pikmin} /></Col>
+                        ))}
+                    </Row>
+                </Container>
+            </div>
         </div>
-        <div>
-            <Container>
-                <Row>
-                    {pikminList && pikminList.map(pikmin => (
-                        <Col lg={3} key={pikmin.id}><PikminCard pikmin={pikmin} /></Col>
-                    ))}
-                </Row>
-            </Container>
-        </div>
-        </>
     )
 }
 

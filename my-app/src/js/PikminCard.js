@@ -5,7 +5,7 @@ const PikminCard = ({ pikmin }) => {
     return (
         <div className="col">
             <img className="pik_img" src={pikmin?.img} />
-            <div className="contain">
+            <div className="card-contain">
                 <div>{pikmin?.name}</div><br/>
                 <div className="des">{pikmin?.description}</div><br/>
                 <div>운반 : {pikmin?.carriage}</div>

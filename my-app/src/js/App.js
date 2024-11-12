@@ -12,18 +12,16 @@ function App() {
         <header className="App-header">
           <img src={appLogoUrl} className="App-logo" alt="logo" />
         </header>
-        <div className='links'>
-          <Link to="/">HOME</Link>
-          <Link to="/Pikmins">피크민</Link>
+        <div className='App-body'>
+          <div className='links'>
+            <Link to="/">HOME</Link>
+            <Link to="/Pikmins">피크민</Link>
+          </div>
+
+          <Routes>
+            <Route path="/Pikmins" element={<Pikmins />} />
+          </Routes>
         </div>
-
-        <Routes>
-          <Route path="/Pikmins" element={<Pikmins />} />
-        </Routes>
-
-        <body>
-          
-        </body>
       </div>
     </BrowserRouter>
   );
