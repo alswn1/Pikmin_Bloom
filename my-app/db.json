@@ -1,0 +1,68 @@
+{
+    "pikmins": [
+        {
+            "id": "111",
+            "name": "레드 피크민",
+            "description": "레드 피크민은 얼굴에 날카로운 코 모양의 척추를 가지고 있고, 불에 면역이에요! 어떤 상황에서도 의지할 수 있는 믿음직한 동맹이에요",
+            "img": "https://pikmin.wiki.gallery/images/thumb/5/56/P4_Red_Pikmin.png/150px-P4_Red_Pikmin.png",
+            "carriage": 1,
+            "strength": 4,
+            "resistance": "불",
+            "growth": 1000
+        },{
+            "id": "112",
+            "name": "옐로우 피크민",
+            "description": "노란색 피크민은 머리 옆에 귀와 같은 막이 있고, 전기를 너무 좋아해서 가끔 윙윙거리는 소리가 들릴 수도 있습니다",
+            "img": "https://pikmin.wiki.gallery/images/thumb/8/8d/P4_Yellow_Pikmin.png/150px-P4_Yellow_Pikmin.png",
+            "carriage": 1,
+            "strength": 3,
+            "resistance": "전기",
+            "growth": 1000
+        },{
+            "id": "113",
+            "name": "블루 피크민",
+            "description": "블루 피크민은 물속에서 호흡할 수 있는 특별한 아가미를 가지고 있습니다. 놀랍지 않게도, 그들은 물을 좋아하고 뛰어난 수영 선수입니다",
+            "img": "https://pikmin.wiki.gallery/images/thumb/5/54/P4_Blue_Pikmin.png/150px-P4_Blue_Pikmin.png",
+            "carriage": 1,
+            "strength": 3,
+            "resistance": "물",
+            "growth": 1000
+        },{
+            "id": "114",
+            "name": "보라색 피크민",
+            "description": "보라색 피크민은 매우 크고, 머리에 작은 털 같은 촉수가 있어요. 엄청 강하지만, 엄청 느리기도 해요",
+            "img": "https://pikmin.wiki.gallery/images/thumb/f/f9/Pikmin_4_Purple_Bud.png/250px-Pikmin_4_Purple_Bud.png",
+            "carriage": 5,
+            "strength": 6,
+            "resistance": "불",
+            "growth": 3000
+        },{
+            "id": "115",
+            "name": "화이트 피크민",
+            "description": "화이트 피크민은 작고 민첩한 몸에 비해 크고 붉은 눈을 가지고 있습니다. 하지만 크기에 속지 마세요. 독이 있거든요!",
+            "img": "https://pikmin.wiki.gallery/images/thumb/1/18/Pikmin_4_White_Flower_Pikmin.png/150px-Pikmin_4_White_Flower_Pikmin.png",
+            "carriage": 1,
+            "strength": 2,
+            "resistance": "공황, 바람 및 특정 유형의 넉백",
+            "growth": 3000
+        },{
+            "id": "117",
+            "name": "날개 달린 피크민",
+            "description": "날개 달린 피크민은 눈이 크고, 배는 줄무늬가 있고, 가장 중요한 건 날개가 있다는 거예요! 그들은 빠르게 여기저기 날아다닐 수 있지만, 그렇게 강하지는 않아요",
+            "img": "https://pikmin.wiki.gallery/images/thumb/c/c1/Pikmin_4_Winged_Pikmin.png/225px-Pikmin_4_Winged_Pikmin.png",
+            "carriage": 1,
+            "strength": 2,
+            "resistance": "크러쉬(부분적으로) 아비스(부분적으로)",
+            "growth": 5000
+        },{
+            "id": "116",
+            "name": "록 피크민",
+            "description": "록 피크민은 정말 강해요. 그들은 어떤 수정이나 유리도 쉽게 깨뜨릴 수 있어요",
+            "img": "https://pikmin.wiki.gallery/images/thumb/a/a8/P4_Rock_Pikmin.png/200px-P4_Rock_Pikmin.png",
+            "carriage": 3,
+            "strength": 5,
+            "resistance": "크러쉬, 찌르기",
+            "growth": 5000
+        }
+    ]
+}
