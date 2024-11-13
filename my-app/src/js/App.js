@@ -1,7 +1,7 @@
 import React from 'react';
-import { BrowserRouter as BrowserRouter, Route, Routes, Link } from 'react-router-dom';  // Router 컴포넌트 추가
-import Pikmins from './Pikmins';
+import { BrowserRouter, Link, Route, Routes } from 'react-router-dom'; // Router 컴포넌트 추가
 import '../css/App.css';
+import Pikmins from './Pikmins';
 
 function App() {
   const appLogoUrl = "https://lh3.googleusercontent.com/U5Jp2yTMY_iiDlObsDYWeTZDjeEpBynvXiSFYJQO5hIJXAddeXbpSwaw2eE4RHB4ZBqa7NXrrVcyLcCWCFwaKoX42qKYO_JOg1oIFl-loDHZ5zQ=rw-e365-w800";

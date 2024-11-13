@@ -1,8 +1,8 @@
+import 'bootstrap/dist/css/bootstrap.min.css'; // 부트스트랩 CSS 임포트
+import React, { useEffect, useState } from 'react';
+import { Col, Container, Row } from 'react-bootstrap'; // 부트스트랩 컴포넌트 임포트
 import '../css/Pikmins.css';
-import React, { useState, useEffect } from 'react';
-import { Container, Row, Col } from 'react-bootstrap';  // 부트스트랩 컴포넌트 임포트
-import 'bootstrap/dist/css/bootstrap.min.css';  // 부트스트랩 CSS 임포트
-import PikminCard from './PikminCard'
+import PikminCard from './PikminCard';
 
 function Pikmins() {
     const [pikminList, setPikminList] = useState([]);
