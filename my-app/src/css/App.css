@@ -83,6 +83,7 @@
   margin-left: 40px;
   font-size: 1.25em;
   font-weight: bolder;
+  color: #ADADAD;
 }
 
 .nav a {
@@ -92,6 +93,10 @@
 
 .links {
   margin-top: 15px;
+}
+
+.links .active {
+  color: #000;
 }
 
 .content {

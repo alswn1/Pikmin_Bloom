@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Link, Route, Routes } from 'react-router-dom'; // Router 컴포넌트 추가
+import { BrowserRouter, NavLink, Link, Route, Routes } from 'react-router-dom'; // Router 컴포넌트 추가
 import '../css/App.css';
 import Pikmins from './Pikmins';
 
@@ -11,9 +11,9 @@ function App() {
     <BrowserRouter>  {/* Router로 감싸기 */}
       <div className="App">
         <header className="App-header">
-          <Link to="/">
+          <NavLink to="/">
             <img src={appLogoUrl} className="App-logo" alt="logo" />
-          </Link>
+          </NavLink>
           <div className='ban'>
             <img src={appTitleBan} className='App-banner'/>
             <div className='title_rec'>
@@ -26,25 +26,25 @@ function App() {
         <div className='App-body'>
           <div className='nav'>
             <div className='links'>
-              <Link to="/Pikmins">Pikmins</Link>
+              <NavLink to="/Pikmins" activeClassName="active">Pikmins</NavLink>
             </div>
             <div className='links'>
-              <Link to="/Pikmins">Seedlings</Link>
+              <NavLink to="/Seedlings" activeClassName="active">Seedlings</NavLink>
             </div>
             <div className='links'>
-              <Link to="/Pikmins">Flowers</Link>
+              <NavLink to="/Flowers" activeClassName="active">Flowers</NavLink>
             </div>
             <div className='links'>
-              <Link to="/Pikmins">Fruits</Link>
+              <NavLink to="/Fruits" activeClassName="active">Fruits</NavLink>
             </div>
             <div className='links'>
-              <Link to="/Pikmins">Mushrooms</Link>
+              <NavLink to="/Mushrooms" activeClassName="active">Mushrooms</NavLink>
             </div>
             <div className='links'>
-              <Link to="/Pikmins">Postcards</Link>
+              <NavLink to="/Postcards" activeClassName="active">Postcards</NavLink>
             </div>
             <div className='links'>
-              <Link to="/Pikmins">Quests</Link>
+              <NavLink to="/Quests" activeClassName="active">Quests</NavLink>
             </div>
 
           </div>
