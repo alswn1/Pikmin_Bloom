@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter, NavLink, Route, Routes } from 'react-router-dom'; // Router 컴포넌트 추가
 import '../css/App.css';
 import Pikmins from './Pikmins';
+import ScrollToTop from '../component/ScrollToTop';
 
 function App() {
   const appLogoUrl = "https://lh3.googleusercontent.com/U5Jp2yTMY_iiDlObsDYWeTZDjeEpBynvXiSFYJQO5hIJXAddeXbpSwaw2eE4RHB4ZBqa7NXrrVcyLcCWCFwaKoX42qKYO_JOg1oIFl-loDHZ5zQ=rw-e365-w800";
@@ -9,6 +10,7 @@ function App() {
 
   return (
     <BrowserRouter>  {/* Router로 감싸기 */}
+    <ScrollToTop />
       <div className="App">
         <header className="App-header">
           <NavLink to="/">
