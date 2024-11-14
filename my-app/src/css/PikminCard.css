@@ -1,14 +1,16 @@
-.row {
-    justify-content: space-between;
-    margin-bottom: 1.5em;
+.col {
+    margin-top: 50px;
+    text-align: center;
+}
+.pik-img {
+    height : 370px;
 }
 
-.col {
-    margin-top : 50px;
+.pik-name {
+    font-size: 1.25em;
+    font-weight: bolder;
 }
-.pik_img {
-    height : 110px;
-}
+
 .card-contain {
     margin-top : 15px;
 }
