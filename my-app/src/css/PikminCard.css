@@ -1,19 +1,28 @@
 .col {
     margin-top: 50px;
     text-align: center;
+    position: relative;
+    transition: .4s;
+    transform-style: preserve-3d;
 }
-.pik-img {
+
+.pik-front-img, .pik-back-img {
     height : 370px;
+    cursor: pointer;
 }
 
-.pik-name {
-    font-size: 1.25em;
-    font-weight: bolder;
+.card-back {
+    position:absolute;
+    top: 0px;
+    left: 17px;
+    visibility: hidden;
+    transform: rotateY(180deg);
 }
 
-.card-contain {
-    margin-top : 15px;
+.flip:hover .card-back {
+    visibility: visible;
 }
-.des {
-    height: 110px;
+
+.flip:hover .col {
+    transform: rotateY(180deg);
 }

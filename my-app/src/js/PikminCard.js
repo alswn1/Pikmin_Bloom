@@ -3,8 +3,15 @@ import '../css/PikminCard.css';
 
 const PikminCard = ({ pikmin }) => {
     return (
-        <div className="col">
-            <img className="pik-img" src={`http://localhost:5000${pikmin.front_img}`}  alt={pikmin.name} />
+        <div className="flip">
+            <div className="col">
+                <div className="card-front">
+                    <img className="pik-front-img" src={pikmin?.front_img}  alt={pikmin.name} />
+                </div>
+                <div className="card-back">
+                    <img className="pik-back-img" src={pikmin?.back_img} />
+                </div>
+            </div>
         </div>
     );
 };
