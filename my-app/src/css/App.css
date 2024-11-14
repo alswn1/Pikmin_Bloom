@@ -2,11 +2,19 @@
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
 
 .App {
-  text-align: center;
+  background-color: #FDFEF7;
   font-family: 'Noto Sans KR', 'Pretendard', sans-serif !important;
 }
 
+.App-header {
+  min-height: 10vh;
+  font-size: calc(10px + 2vmin);
+}
+
 .App-logo {
+  margin-top: 10px;
+  margin-bottom:10px;
+  margin-left: 20px;
   height: 6vmin;
   pointer-events: none;
 }
@@ -15,21 +23,6 @@
   .App-logo {
     animation: App-logo-spin infinite 3s linear;
   }
-}
-
-.App-header {
-  background-color: #fff;
-  min-height: 10vh;
-  margin-top: 3vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
@@ -44,24 +37,63 @@
   }
 }
 
-.links {
-  min-height: 5vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  font-weight: bold;
-  font-size: 17px;
+.ban {
+  position: relative;
 }
 
-.links a {
-  text-decoration: none; /* 밑줄 제거 */
-  margin-right: 10px; /* 오른쪽 여백 추가 */
-  color: inherit; /* 텍스트 색상 상속 */
+.App-banner {
+  width: 100%;
+}
+
+.title_rec {
+  position: absolute;
+  background-color: rgba(41, 164, 107, 0.8);
+  width: 390px;
+  height: 145px;
+  margin: 0 auto;
+  border-radius: 15px;
+  top: 19%;
+  left: 39%;
+}
+
+.title {
+  color: #fff;
+  font-size: 50px;;
+  font-weight: bolder;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.subtitle {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
 }
 
 .App-body {
-  background-image: url("https://pikmin.wiki.gallery/images/3/37/Vector_background.jpg");
-  background-size: cover;
-  min-height: 90vh;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav {
+  display: block !important;
+  width: 100px;
+  margin-left: 40px;
+  font-size: 1.25em;
+  font-weight: bolder;
+}
+
+.nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.links {
+  margin-top: 15px;
+}
+
+.content {
+  margin: 0 auto;
 }

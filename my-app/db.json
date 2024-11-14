@@ -63,6 +63,15 @@
             "strength": 5,
             "resistance": "크러쉬, 찌르기",
             "growth": 5000
+        },{
+            "id": "118",
+            "name": "데코 피크민",
+            "description": "호감도 4를 채우면 피크민이 선물을 가져와요",
+            "img": "https://pikmin.wiki.gallery/images/thumb/a/a8/P4_Rock_Pikmin.png/200px-P4_Rock_Pikmin.png",
+            "carriage": 0,
+            "strength": 0,
+            "resistance": "장식",
+            "growth": 0
         }
     ]
 }

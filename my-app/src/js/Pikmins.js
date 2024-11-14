@@ -18,9 +18,6 @@ function Pikmins() {
 
     return (
         <div className='wrapper'>
-            <div className="first">
-                <p>Pikmin (Olimar가 가장 좋아하는 당근인 피크픽 당근에서 따온 이름)</p>
-            </div>
             <div>
                 <Container>
                     <Row>
