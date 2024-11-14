@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, NavLink, Link, Route, Routes } from 'react-router-dom'; // Router 컴포넌트 추가
+import { BrowserRouter, NavLink, Route, Routes } from 'react-router-dom'; // Router 컴포넌트 추가
 import '../css/App.css';
 import Pikmins from './Pikmins';
 
