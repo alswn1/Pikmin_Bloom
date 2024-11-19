@@ -7,14 +7,13 @@
 }
 
 .pik-front-img, .pik-back-img {
-    height : 370px;
+    height : 420px;
     cursor: pointer;
 }
 
 .card-back {
     position:absolute;
     top: 0px;
-    left: 17px;
     visibility: hidden;
     transform: rotateY(180deg);
 }

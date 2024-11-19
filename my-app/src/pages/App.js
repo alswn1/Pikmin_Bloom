@@ -35,9 +35,6 @@ function App() {
               <NavLink to="/Seedlings" activeClassName="active">Seedlings</NavLink>
             </div>
             <div className='links'>
-              <NavLink to="/Flowers" activeClassName="active">Flowers</NavLink>
-            </div>
-            <div className='links'>
               <NavLink to="/Fruits" activeClassName="active">Fruits</NavLink>
             </div>
             <div className='links'>
