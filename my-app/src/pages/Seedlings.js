@@ -1,9 +1,10 @@
 import React, { useState, useEffect, useRef } from "react";
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination } from "swiper/modules";
+import { EffectCoverflow, Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import "swiper/css/effect-coverflow";
 import "../css/Seedlings.css";
 
 const Seedlings = () => {
@@ -33,12 +34,17 @@ const Seedlings = () => {
     return (
         <div className="seed-wrapper">
             <Swiper
-                modules={[Navigation, Pagination]}
+                modules={[Navigation, Pagination, EffectCoverflow]}
                 spaceBetween={50}
                 slidesPerView={3}
                 loop={true}
                 navigation
                 pagination={{ clickable: true }}
+                effect="coverflow"
+                coverflowEffect={{
+                    rotate: 30,
+                    slideShadows: false
+                }}
                 className="swiper">
                 {faqs.map((faq, index) => (
                     <SwiperSlide key={index}>
