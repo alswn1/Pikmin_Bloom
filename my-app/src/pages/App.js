@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter, NavLink, Route, Routes } from 'react-router-dom'; // Router 컴포넌트 추가
 import '../css/App.css';
 import Pikmins from './Pikmins';
+import Seedlings from './Seedlings';
 import ScrollToTop from '../component/ScrollToTop';
 
 function App() {
@@ -53,6 +54,7 @@ function App() {
           <div className='content'>
             <Routes>
               <Route path="/Pikmins" element={<Pikmins />} />
+              <Route path="/Seedlings" element={<Seedlings />} />
             </Routes>
           </div>
         </div>

@@ -1,7 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css'; // 부트스트랩 CSS 임포트
 import React, { useEffect, useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap'; // 부트스트랩 컴포넌트 임포트
-import '../css/Pikmins.css';
 import PikminCard from './PikminCard';
 
 function Pikmins() {

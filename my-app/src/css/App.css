@@ -72,6 +72,7 @@
 }
 
 .App-body {
+  min-height: 70vh;
   display: flex;
   flex-wrap: wrap;
 }
