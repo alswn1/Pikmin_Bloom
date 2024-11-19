@@ -1,0 +1,37 @@
+.seed-wrapper {
+    margin-top: 50px;
+    width: 110vh;
+    height: 500px;
+}
+
+.swiper {
+    display: flex;
+    gap: 25px;
+    text-align: center;
+}
+
+.slide-item {
+    padding: 20px;
+    padding-top: 40px;
+    background-color: rgba(207, 228, 123, 0.3);
+    border-radius: 30px;
+    height: 400px;
+}
+
+.slide-item span {
+    font-weight: bolder;
+    font-size: 1.25rem;
+}
+
+.slide-item p {
+    margin-top: 50px;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    font-weight: bolder;
+    color: #8EA33A;
+}
+
+.swiper-pagination-bullet {
+    background-color: #8EA33A;
+}

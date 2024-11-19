@@ -72,16 +72,16 @@
 }
 
 .App-body {
-  min-height: 70vh;
+  min-height: 60vh;
   display: flex;
   flex-wrap: wrap;
 }
 
 .nav {
   margin-top: 50px;
-  display: block !important;
-  width: 100px;
   margin-left: 40px;
+  display: block !important;
+  width: 15vh;
   font-size: 1.25em;
   font-weight: bolder;
   color: #ADADAD;
