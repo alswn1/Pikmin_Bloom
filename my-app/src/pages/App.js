@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter, NavLink, Route, Routes } from 'react-router-dom'; // Router 컴포넌트 추가
 import '../css/App.css';
+import Home from './Home.js';
 import Pikmins from './Pikmins';
 import Seedlings from './Seedlings';
 import ScrollToTop from '../component/ScrollToTop';
@@ -34,22 +35,11 @@ function App() {
             <div className='links'>
               <NavLink to="/Seedlings" activeClassName="active">Seedlings</NavLink>
             </div>
-            <div className='links'>
-              <NavLink to="/Fruits" activeClassName="active">Fruits</NavLink>
-            </div>
-            <div className='links'>
-              <NavLink to="/Mushrooms" activeClassName="active">Mushrooms</NavLink>
-            </div>
-            <div className='links'>
-              <NavLink to="/Postcards" activeClassName="active">Postcards</NavLink>
-            </div>
-            <div className='links'>
-              <NavLink to="/Quests" activeClassName="active">Quests</NavLink>
-            </div>
 
           </div>
           <div className='content'>
             <Routes>
+              <Route path='/' element={<Home />} />
               <Route path="/Pikmins" element={<Pikmins />} />
               <Route path="/Seedlings" element={<Seedlings />} />
             </Routes>
